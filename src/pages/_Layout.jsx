@@ -4,10 +4,7 @@ import { Menu } from "../components/Menu";
 export function Layout() {
   return (
     <div
-      className={`
-        flex 
-        w-screen h-screen       
-    `}
+      className={`flex w-screen min-h-screen`}
     >
       <Menu />
       <main className="flex flex-1">
